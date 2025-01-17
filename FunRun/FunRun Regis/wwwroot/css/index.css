@@ -1,0 +1,56 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* General body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+/* Logo styling */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Header styling */
+header {
+    background-color: white; /* White background */
+    border-radius: 10px; /* Rounded corners for header */
+    padding: 10px 20px;
+
+}
+
+    /* Button styling */
+    header .btn-blue {
+        background-color: #007bff; /* Blue background */
+        color: white; /* White text */
+        font-weight: 500;
+        border-radius: 5px;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
+
+        header .btn-blue:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+    /* Optional: Additional button styling (if needed) */
+    header .btn {
+        font-weight: 500;
+        border-radius: 5px;
+    }
+
+/* Other styles */
+main h2 {
+    color: #007bff; /* Blue heading */
+}
+
+main p.lead {
+    color: #6c757d; /* Gray text for paragraph */
+}
+
+footer p {
+    color: #343a40; /* Dark gray footer text */
+}

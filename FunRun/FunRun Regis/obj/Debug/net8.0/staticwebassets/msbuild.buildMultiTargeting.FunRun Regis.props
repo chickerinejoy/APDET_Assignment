@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FunRun Regis.props" />
+</Project>
